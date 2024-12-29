@@ -10,18 +10,18 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>oorek’s Github Pages</title>
+<!-- begin _includes/seo.html --><title>Sungwon Woo</title>
 <meta name="description" content="Welcome to my site">
 
 
-  <meta name="author" content="Your Name">
+  <meta name="author" content="Sungwon Woo">
   
 
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="oorek's Github Pages">
-<meta property="og:title" content="oorek’s Github Pages">
+<meta property="og:site_name" content="Sungwon Woo">
+<meta property="og:title" content="Sungwon Woo">
 <meta property="og:url" content="http://localhost:4000/">
 
 
@@ -52,8 +52,9 @@
 {
   "@context": "https://schema.org",
   "@type": "Person",
-    "name": "Your Name",
-    "url": "http://localhost:4000/"
+    "name": "Sungwon Woo",
+    "url": "http://localhost:4000/",
+    "sameAs": [{"label":"Github","icon":"fab fa-fw fa-github","url":"https://github.com/oorek"},{"label":"LinkedIn","icon":"fab fa-fw fa-linkedin","url":"https://www.linkedin.com/in/sungwon-woo-3aab4827b/"},{"label":"Google Scholar","icon":"fas fa-fw fa-graduation-cap","url":"https://scholar.google.com/citations?user=x1nCjiwAAAAJ&hl=en"}]
 }
 </script>
 
@@ -69,7 +70,7 @@
 
 
 
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="oorek's Github Pages Feed">
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Sungwon Woo Feed">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script>
@@ -101,34 +102,42 @@
   </ul>
 </nav>
 
-    
-
-<div class="masthead">
+    <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        
         <a class="site-title" href="/">
-          oorek's Github Pages
-          
+          Sungwon Woo
         </a>
-        <ul class="visible-links"><li class="masthead__menu-item">
-              <a
-                href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/"
-                
-                
-              >Quick-Start Guide</a>
-            </li></ul>
-        
-        <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">Toggle menu</span>
-          <div class="navicon"></div>
-        </button>
-        <ul class="hidden-links hidden"></ul>
+        <div class="site-logo-wrapper">
+          <img class="site-logo" src="/assets/images/Sungwon.JPG" alt="Sungwon Woo">
+        </div>
       </nav>
     </div>
   </div>
 </div>
+
+    <ul class="social-links">
+      
+        <li>
+          <a href="https://github.com/oorek" target="_blank">
+            <i class="fab fa-fw fa-github"></i> Github
+          </a>
+        </li>
+      
+        <li>
+          <a href="https://www.linkedin.com/in/sungwon-woo-3aab4827b/" target="_blank">
+            <i class="fab fa-fw fa-linkedin"></i> LinkedIn
+          </a>
+        </li>
+      
+        <li>
+          <a href="https://scholar.google.com/citations?user=x1nCjiwAAAAJ&hl=en" target="_blank">
+            <i class="fas fa-fw fa-graduation-cap"></i> Google Scholar
+          </a>
+        </li>
+      
+    </ul>
 
 
     <div class="initial-content">
@@ -148,7 +157,7 @@
 
   <div class="author__content">
     <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Your Name</a>
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Sungwon Woo</a>
     </h3>
     
       <div class="author__bio p-note" itemprop="description">
@@ -159,7 +168,7 @@
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
+    <!-- <button class="btn btn--inverse">Follow</button> -->
     <ul class="author__urls social-icons">
       
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
@@ -269,6 +278,37 @@
 
 
 
+<!-- Publication Section -->
+<section id="publication" class="custom-section">
+  <h2>Publications</h2>
+  <ul>
+    <li>
+      <strong>Title of Publication 1</strong>  
+      <p>Author(s), Conference/Journal, Year</p>
+    </li>
+    <li>
+      <strong>Title of Publication 2</strong>  
+      <p>Author(s), Conference/Journal, Year</p>
+    </li>
+    <!-- Add more publications as needed -->
+  </ul>
+</section>
+
+<!-- Education Section -->
+<section id="education" class="custom-section">
+  <h2>Education</h2>
+  <ul>
+    <li>
+      <strong>Institution Name</strong>  
+      <p>Degree (e.g., Bachelor of Science), Year of Graduation</p>
+    </li>
+    <li>
+      <strong>Another Institution Name</strong>  
+      <p>Degree (e.g., Master of Science), Year of Graduation</p>
+    </li>
+    <!-- Add more education items as needed -->
+  </ul>
+</section>
   </div>
 </div>
 
@@ -282,7 +322,7 @@
         <!-- start custom footer snippets -->
 
 <!-- end custom footer snippets -->
-        <div class="page__footer-follow">
+        <!-- <div class="page__footer-follow">
   <ul class="social-icons">
     
       <li><strong>Follow:</strong></li>
@@ -309,8 +349,7 @@
     
   </ul>
 </div>
-
-<div class="page__footer-copyright">&copy; 2024 <a href="http://localhost:4000">oorek's Github Pages</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+ -->
 
       </footer>
     </div>

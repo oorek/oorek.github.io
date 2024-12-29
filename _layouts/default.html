@@ -1,6 +1,7 @@
 ---
 ---
 
+
 <!doctype html>
 {% include copyright.html %}
 <html lang="{{ site.locale | replace: "_", "-" | default: "en" }}" class="no-js">
@@ -12,6 +13,17 @@
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
+
+    <ul class="social-links">
+      {% for link in site.social.links %}
+        <li>
+          <a href="{{ link.url }}" target="_blank">
+            <i class="{{ link.icon }}"></i> {{ link.label }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+
 
     <div class="initial-content">
       {{ content }}
