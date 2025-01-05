@@ -124,7 +124,9 @@ analytics:
 author:
   name             : "Sungwon Woo"
   avatar           :  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "I am currently pursuing a Master's degree in Artificial Intelligence with a specialization in Computer Vision at Sogang University, under the guidance of Professor Jongho Nang. I am an alum of Sogang University, having graduated with a Bachelor's degree in Computer Science and Engineering in 2023. 
+My research focuses on developing efficient deep neural networks for representation learning. Throughout my master's studies, I have gained extensive experience in image and video retrieval, as well as in visual copy detection, and also involved in research of developing lightweight networks. My recent research focuses on few-shot class-incremental learning.
+Currently, I am serving as a visiting scholar in the Software and Societal Systems Department at Carnegie Mellon University."
   location         : "Somewhere"
   email            :
   links:
